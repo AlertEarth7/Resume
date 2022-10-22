@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<style>
-/* table, th, td {
-  border:1px solid purple;
-} */
-hr{
-  border-top: dotted 4px #b36bff
-}
-</style>
   <head>
     <meta charset="utf-8">
-    <title>Jirayu mulvicha</title>
     <link rel="stylesheet" href="css\tablestyle.css">
+    <link rel="stylesheet" href="css\MainStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Noto+Sans+Thai:wght@800&family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+    <title>Mypage Jirayu(Position)</title>
   </head>
-  <body style="background-color:#F8E8FE">
-    <table cellspacing="5">
-      <td><img src="Earth.png" alt="alternatetext" width="300" height="300"></td>
-      <td><h1>นายจิรายุ มูลวิชา</h1>
-      <p><em>สาขาวิศวกรรมศาสตร์</em></p>
-      <p><a href="http://pim.ac.th" target="_blank">สถาบันการจัดการปัญญาภิวัฒน์</a></p></td>
-    </table>
-    <br>ผม นายจิรายุ มูลวิชา , <strong>Mr.Jirayu mulvicha</strong> ชื่อเล่น เอิร์ท(Earth) อายุ 20 ปี
-    <hr>
-    <h2>ประสบการณ์ทำงาน</h2>
-    <ul>
-      <li>2fellow network & design ตำแหน่ง App Dev</li>
-    </ul>
-    <hr>
-    <h2>Skills</h2>
-    <table style="width:30%" border="1px">
-      <thead>
-      <tr>
-        <th>skill</th>
-        <th>level</th>
-      </tr>
-      </thead>
-      <tr>
-        <td>java</td>
-        <td>🔥🔥🔥</td>
-      </tr>
-      <tr>
-        <td>C</td>
-        <td>🔥🔥</td>
-      </tr>
-      <tr>
-        <td>python</td>
-        <td>🔥🔥</td>
-      </tr>
-      <tr>
-        <td>Dart</td>
-        <td>🔥🔥🔥🔥</td>
-      </tr>
-    </table>
-    <hr>
-    <p><a href="contact.html"><strong>My Contact</strong></a><strong></strong></p>
-    <p><a href="Weekly reports.html"><strong>Weekly Reports</strong></a><strong></strong></p>
+  <body>
+    <div class="Top-Header">
+      <img src="cloud.png" alt="" class="top">
+      <h1>Jirayu mulvicha</h1>
+      <h4>Student of <span>C</span>omputer and <span>A</span>rtificial <span>I</span>telligence, ET</h4>
+      <img src="cloud.png" alt="" class="bottom">
+      <img src="mountain.png" width="600"
+      height="400" alt="Mountain">
+    </div>
+    <div class="Middle-Header">
+      <div class="Profile">
+        <table cellspacing="5" class="tableskills">
+          <td><img src="Earth.png" alt="alternatetext" width="300" height="300" id="main-profile"></td>
+          <td><h1>นายจิรายุ มูลวิชา</h1>
+          <p class="txt-profile">สาขาวิศวกรรมศาสตร์</p>
+          <p class="txt-profile"><a href="http://pim.ac.th" target="_blank">สถาบันการจัดการปัญญาภิวัฒน์</a></p></td>
+        </table>
+      </div>
+      <p style="margin: 20px">ผม นายจิรายุ มูลวิชา(Mr.Jirayu mulvicha)<br>ชื่อเล่น เอิร์ท(Earth) อายุ 20 ปี</p>
+      <hr><br>
+      <h2>ประสบการณ์ทำงาน</h2>
+      <ul>
+        <li><img src="2fl.png" width="250" height="100" class="officeimg" style="margin: 10px"></li>
+        <li><p id="p1">2fellow network & design</p></li>
+        <li><p id="p2">2fellows ด้วยประสบการณ์การทำงานและความเชี่ยวชาญด้าน digital & technology ที่มีผลงานเป็นที่ยอมรับต่อภาครัฐและภาคเอกชนมายาวนานกว่า 20 ปี เรามีทีมงานที่พร้อมทุ่มเท เพื่อสร้างสรรบริการแบบครบวงจรภายใต้นิยามคำว่า professional ด้วยนวัตกรรมใหม่ๆ ที่ตอบทุกโจทย์ความต้องการของผู้บริโภคและการเปลี่ยนแปลงของ เทคโนโลยี</p></li>
+        <li><p id="p3">ตำแหน่ง App Dev <img src="programming-code-signs.png"  alt="" width="25" height="25" id="img1"></p></li>
+        <li><p>เป็นผู้สร้างหน้าตาของแอพ ออกแบบทำUX/UI หรือทำตามแบบที่ได้รับมอบหมายมา <br>Project ที่เคยทำกบัทางบริษัท คือ "NBT" เป็น1ในช่องข่าวสารในบ้านเรา </p> </li>
+      </ul><br>
+      <hr>
+      <h2>Skills</h2>
+      <table style="width:40%">
+        <thead>
+        <tr>
+          <th>skill</th>
+          <th>level</th>
+        </tr>
+        </thead>
+        <tr>
+          <td class="border-td"><img src="img-logo\Java-Logo.png" alt=""width="100"height="60" style="margin: 10px"></td>
+          <td class="border-td">🔥🔥🔥</td>
+        </tr>
+        <tr>
+          <td class="border-td"><img src="img-logo\C-Logo.png" alt=""width="70"height="70" style="margin: 10px"></td>
+          <td class="border-td">🔥🔥</td>
+        </tr>
+        <tr>
+          <td class="border-td"><img src="img-logo\Python-Logo.png" alt=""width="130"height="70" style="margin: 10px"></td>
+          <td class="border-td">🔥🔥</td>
+        </tr>
+        <tr>
+          <td class="border-td"><img src="img-logo\Dart-Logo.png" alt=""width="230"height="60" style="margin: 10px"></td>
+          <td class="border-td">🔥🔥🔥🔥</td>
+        </tr>
+      </table>
+    </div>
+    <hr/>
+    <div class="Bottom-Header">
+      <a href="contact.html"><h4 class="txt-Bottom">My Contact</a></h4><br>
+      <a href="Weekly reports.html"><h4 class="txt-Bottom">Weekly Reports</a></h4>
+    </div>
   </body>
 </html>
